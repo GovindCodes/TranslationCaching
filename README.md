@@ -43,7 +43,8 @@ A web server with a RESTful API that exposes an API that translate a text from o
 2. Download [Redis](https://github.com/dmajkic/redis/downloads) and open the `redis-server` file for starting the server (neccesary to run the app)
 3. Open the terminal window and write
 ```
-git clone URL
+git clone https://github.com/GovindCodes/TranslationCaching.git
+
 ```
 
 
