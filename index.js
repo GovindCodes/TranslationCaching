@@ -55,4 +55,4 @@ app.get("/", (req, res) => {
   res.render("index", { translated: "" });
 });
 
-app.listen(3000, console.log("server running at 3000"));
+module.exports = app.listen(3000, console.log("server running at 3000"));
