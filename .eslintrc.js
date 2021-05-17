@@ -13,4 +13,7 @@ module.exports = {
   rules: {
     'linebreak-style': 0,
   },
+  "standard": {
+    "env": [ "mocha" ]
+  }
 };
