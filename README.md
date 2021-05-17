@@ -63,7 +63,7 @@ This will run the software on port `3000`
 
 6.  **HURRAHHH**:boom: You are ready to go to [localhost:3000](http://localhost:3000/) on your browser and enjoy the traslation caching.
 
-![GIF](_images\testingCaching.gif)
+![GIF](./_images/testingCaching.gif)
 ###### we can observe here that first time the loading time was `2.24 Sec` and 2nd time whe i serched for same data it got cached and loading time reduced to `839 milliSec` 
 
 ## Testing Code
@@ -74,7 +74,7 @@ npn test
 ```
 Make sure the server file is not already running only the redis server should run
 
-![](_images\Testing.PNG)
+![image](./_images/Testing.PNG)
 
 and the test written in `test\task.js` will run using mocha
 
