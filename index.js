@@ -52,4 +52,4 @@ app.get('/', (_req, res) => {
   res.render('index', { translated: '' });
 });
 
-module.exports = app.listen(PORT, console.log(`server running at 3000 ${PORT}`));
+module.exports = app.listen(PORT, console.log(`server running at ${PORT}`));
