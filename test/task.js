@@ -34,7 +34,7 @@ describe('Test API', () => {
     it('it should POST all the tasks', (done) => {
       const data = {
         speech: 'I am govind',
-        lang: 'hi',
+        language: 'hi',
       };
       chai.request(server)
         .post('/')
